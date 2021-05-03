@@ -6,38 +6,26 @@ body {
   margin-right: 20px;
 }
 
-.btn-primary {
-  width: 80px;
-  margin-top: 10px;
-}
-
-.b {
-  width: 300px;
-}
-
-.inp {
-  width: 500px;
-  margin-bottom: 10px;
-}
-
-.form-control {
-  width: 500px;
-}
-
 .li1 {
   margin-top: 20px;
 }
 
+.form-control {
+  display: inline-flex;
+  width: 40%;
+
+}
+
 .container {
   margin-top: 1em;
-  padding: 0;
+  padding: 10px;
   width: 800px;
   /* min-height:  10px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: initial;
-  background-color: green;
+  align-items: center;
+  
 }
 div {
   display: flex;
@@ -49,4 +37,11 @@ div {
   padding: 0em;
   padding-bottom: 1em;
   box-sizing: content-box;
+}
+
+.firstDiv {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-between;
 }

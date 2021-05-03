@@ -12,7 +12,7 @@ main.append(listBlock)
 
 let firstDiv = document.createElement('div')
 listBlock.append(firstDiv)
-firstDiv.className = 'container'
+firstDiv.className = 'firstDiv'
 
 let textIn = document.createElement('input')
 textIn.setAttribute('placeholder', 'Type here ...')
